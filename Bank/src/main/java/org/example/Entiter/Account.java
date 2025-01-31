@@ -28,4 +28,8 @@ public class Account {
     public void printStatement() {
         statementPrinter.print(transactions);
     }
+
+    public List<Transaction> getTransactions() {
+        return  transactions;
+    }
 }
