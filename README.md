@@ -15,11 +15,11 @@ L'architecture suit le modèle **Hexagonal (Ports & Adapters)**, ce qui assure u
 - 🕒 **Gestion des dates** avec `Clock.java`.
 - ✅ **Tests unitaires** avec JUnit et Mockito.
 
----
+## 🏗️ Architecture du Projet
+Voici la structure des fichiers du projet :
 
-## 🏗️ **Architecture du Projet**
-
-/bank-kata
+```bash
+bank-kata/
 │── src/
 │   ├── main/java/com/example/bankkata/
 │   │   ├── domain/             
@@ -36,10 +36,6 @@ L'architecture suit le modèle **Hexagonal (Ports & Adapters)**, ce qui assure u
 │   │   ├── StatementPrinterTest.java
 │   │   ├── ClockTest.java
 
-
-
-
----
 
 ## 💻 **Technologies Utilisées**
 - **Java 17+** 🏗️
